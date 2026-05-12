@@ -1,0 +1,8 @@
+.helios-table__grid {
+  --ag-font-family: inherit;
+}
+
+.helios-table__grid .ag-cell {
+  display: flex;
+  align-items: center;
+}

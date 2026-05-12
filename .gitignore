@@ -1,0 +1,6 @@
+node_modules/
+.DS_Store
+
+# Interviewer-only notes — never commit
+INTERVIEWER.md
+.interviewer/

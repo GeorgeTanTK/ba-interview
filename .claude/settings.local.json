@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Bash(npm install *)",
+      "Bash(npm --prefix server install)",
+      "Bash(npm --prefix client install)",
+      "Bash(npx tsx *)",
+      "Bash(curl -s http://localhost:8787/api/health)",
+      "Bash(curl -s -X POST http://localhost:8787/api/items -H \"Content-Type: application/json\" -d '{\"name\":\"hello\"}')",
+      "Bash(curl -s http://localhost:8787/api/items)",
+      "Bash(npx tsc *)",
+      "Bash(echo \"Exit: $?\")",
+      "Bash(npm run *)",
+      "Bash(npx shadcn@latest add badge button input -y)",
+      "Bash(mkdir -p /Users/noctis/Desktop/lgt/denny-interview/client/src/pages/FundUniverse /Users/noctis/Desktop/lgt/denny-interview/client/src/pages/Clients)",
+      "Bash(rm /Users/noctis/Desktop/lgt/denny-interview/client/src/pages/FundUniverse.tsx /Users/noctis/Desktop/lgt/denny-interview/client/src/pages/Clients.tsx)"
+    ]
+  }
+}

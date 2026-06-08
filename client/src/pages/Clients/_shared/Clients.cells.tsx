@@ -12,8 +12,6 @@ export const ClientNameCell = (p: ICellRendererParams<Client>) => (
   </div>
 );
 
-// ivan.li@lgt.com
-
 export const ClientStatusCell = (p: ICellRendererParams<Client>) => {
   const status = p.value as Client["status"];
   const styles =
